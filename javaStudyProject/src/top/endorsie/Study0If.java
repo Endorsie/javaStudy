@@ -2,7 +2,7 @@ package top.endorsie;
 
 import java.util.Scanner;
 
-public class study0If {
+public class Study0If {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("please enter a num:");

@@ -2,7 +2,7 @@ package top.endorsie;
 
 import java.util.Scanner;
 
-public class study1Switch {
+public class Study1Switch {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("What noodles you want to eat:\n1 is 1 and 2 is 2");

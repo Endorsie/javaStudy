@@ -1,6 +1,6 @@
 package top.endorsie;
 
-public class study4Method {
+public class Study4Method {
     public static void main(String[] args){
         /*
         方法定义：
@@ -30,12 +30,19 @@ public class study4Method {
 
         //抽取方法内代码快捷键:Alt+Control+M，可快捷替换类中相似的代码
         getPrintln(arr);
-        
+
+        String s = "kdsajdiashduiahduiahduisudagiud";
+        int length = s.length();    //获得字符串的长度
+        String Upper = s.toUpperCase(); //改大写
+        System.out.println(length + Upper);
+
         }
+
 //抽取一次
     private static void getPrintln(int[] arr) {
         extracted(arr[1]);
     }
+
 //抽取两次
     private static void extracted(int arr) {
         System.out.println(arr);
@@ -45,6 +52,7 @@ public class study4Method {
         number = 2000;
         return number;
     }
+
     public static void change(int[] array){
         array[0]=1000;
     }

@@ -1,6 +1,6 @@
 package top.endorsie;
 
-public class study3Array {
+public class Study3Array {
     public static void main(String[] args){
         //完整格式：int [] array0 = new int []{1,2,3,4,5};
         //简化格式：int [] array0 = {}
@@ -27,5 +27,8 @@ public class study3Array {
                 {2,5,6,9}
         };
         System.out.println(array4[0][2]);
+
+        //二维数组的动态初始化
+        int[][] array5 = new int [6][8];
     }
 }
