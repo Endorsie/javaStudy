@@ -1,5 +1,7 @@
 package top.endorsie;
 
+import Practice1ObjectOriented.ResourcePractice1ObjectOriented;
+
 public class Study3Array {
     public static void main(String[] args){
         //完整格式：int [] array0 = new int []{1,2,3,4,5};
@@ -30,5 +32,12 @@ public class Study3Array {
 
         //二维数组的动态初始化
         int[][] array5 = new int [6][8];
+
+        //对象可以直接存在数组里面，然后通过引用类的数据类型来表示
+        ResourcePractice1ObjectOriented[] arrayObject = new ResourcePractice1ObjectOriented[3]; //引用类的数据类型来创造数组
+        ResourcePractice1ObjectOriented object = new ResourcePractice1ObjectOriented("12","34","56","78"); //创建对象
+        arrayObject[0] = object;
+        System.out.println(arrayObject[0].getId());    //获取数组内对象的元素
+
     }
 }

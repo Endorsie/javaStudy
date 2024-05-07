@@ -1,4 +1,4 @@
-package practice.endorsie;
+package Practice0ObjectOriented;
 
 public class Practice0ObjectOriented {
     public static void main(String[] args){

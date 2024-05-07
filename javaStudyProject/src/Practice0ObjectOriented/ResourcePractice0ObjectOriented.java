@@ -1,4 +1,4 @@
-package practice.endorsie;
+package Practice0ObjectOriented;
 
 import java.util.Random;
 
